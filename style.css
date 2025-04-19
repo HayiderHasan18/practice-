@@ -15,13 +15,16 @@ header{
 }
 .lists{
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 .lists li{
 list-style: none;
+margin-right: 30px;
 }
 .lists li a{
   text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
 }
 
