@@ -3,12 +3,25 @@
   margin: 0;
   box-sizing: border-box;
 }
-nav{
+header{
   width: 100%;
-  width: 120px;
+  height: 80px;
   background-color: #343434;
   color: white;
   display: flex;
   justify-content: end;
+  align-items: center;
+
+}
+.lists{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lists li{
+list-style: none;
+}
+.lists li a{
+  text-decoration: none;
 }
 
